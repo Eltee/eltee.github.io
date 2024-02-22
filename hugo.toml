@@ -1,0 +1,4 @@
+baseURL = 'https://eltee.online/'
+languageCode = 'en-ca'
+title = 'Eltee Online'
+theme = 'ananke'
