@@ -1,6 +1,6 @@
 baseURL = 'https://eltee.online/'
 languageCode = 'en-ca'
-title = 'Eltee Online'
+title = "Eltee's online space"
 theme = 'gokarna'
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -55,22 +55,28 @@ pygmentsStyle = "monokai"
     weight = 1
 
   [[menu.main]]
-    name = "Posts"
-    pre = "<span data-feather='book'></span>"
-    url = "/posts/"
+    name = "Games Completed"
+    pre = "<img class='svg-inject' src='/svg/icons/completed.svg' />"
+    url = "/completed/"
     weight = 2
 
   [[menu.main]]
-    name = "Poists"
-    pre = "<span data-feather='book'></span>"
-    url = "/poists/"
+    name = "Steam Next Fest"
+    pre = "<img class='svg-inject' src='/svg/icons/steam.svg' />"
+    url = "/nextfest/"
     weight = 3
 
   [[menu.main]]
-    name = "Pastes"
-    pre = "<span data-feather='book'></span>"
-    url = "/pastes/"
+    name = "Miscellaneous"
+    pre = "<img class='svg-inject' src='/svg/icons/misc.svg' />"
+    url = "/misc/"
     weight = 4
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 5
 
 [markup]
   [markup.tableOfContents]
