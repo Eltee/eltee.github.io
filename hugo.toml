@@ -1,6 +1,6 @@
 baseURL = 'https://eltee.online/'
 languageCode = 'en-ca'
-title = "Eltee's online space"
+title = "Blog Unscrupulous Murder"
 theme = 'gokarna'
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Eltee"
-  description = "Cry havoc and let loose the dogshit of war"
+  description = "Quiplash Champion 2015"
   ShowBackToTopButton = true 
   showPostsOnHomePage = "recent"
   avatarURL = "/images/avatar.png"
@@ -67,16 +67,28 @@ pygmentsStyle = "monokai"
     weight = 3
 
   [[menu.main]]
+    name = "VGM Showcase"
+    pre = "<span data-feather='music'></span>"
+    url = "/vgm/"
+    weight = 4
+
+  [[menu.main]]
     name = "Miscellaneous"
     pre = "<img class='svg-inject' src='/svg/icons/misc.svg' />"
     url = "/misc/"
-    weight = 4
+    weight = 5
+
+  [[menu.main]]
+    name = "YouTube Uploads"
+    pre = "<span data-feather='youtube'></span>"
+    url = "/youtube/"
+    weight = 6
 
   [[menu.main]]
     name = "Tags"
     pre = "<span data-feather='tag'></span>"
     url = "/tags/"
-    weight = 5
+    weight = 7
 
 [markup]
   [markup.tableOfContents]

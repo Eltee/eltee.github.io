@@ -1,12 +1,17 @@
 ---
-title: "Completed: Mega Man 4 (Sequel Wars)"
+title: "Mega Man 4 (Sequel Wars)"
 date: 2024-07-31
-description: "Homebrew port of Mega Man 4 from the NES to the Sega Genesis in the style of Wily Wars, with extra features"
-type: "post"
-tags: ["Sega Genesis/Mega Drive", "Mega Man/Rock Man", "Completed", "Platformer"]
+description: Homebrew port of Mega Man 4 from the NES to the Sega Genesis in the style of Wily Wars, with extra features
+type: post
+tags:
+  - Completed
+  - Mega Man
+  - Platformer
+  - Sega Genesis
 showTableOfContents: false
 params:
   author: Eltee
+  category: Completed
 ---
 {{< figure src="https://img.itch.zone/aW1nLzEyMjU0NzIyLnBuZw==/original/gH9pFt.png" width=500px >}}
 

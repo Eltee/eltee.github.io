@@ -1,3 +1,4 @@
 ---
-title: "Miscellaneous"
+title: Miscellaneous
+description: Anything goes.
 ---
