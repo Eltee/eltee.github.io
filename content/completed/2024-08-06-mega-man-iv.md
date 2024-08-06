@@ -3,6 +3,7 @@ title: "Mega Man IV"
 date: 2024-08-06
 description: AKA Rock Man World 4, where it actually becomes good
 type: post
+image: "https://cdn.mobygames.com/covers/5817600-mega-man-iv-game-boy-front-cover.jpg"
 tags:
   - Completed
   - Mega Man

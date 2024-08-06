@@ -3,6 +3,7 @@ title: "Mega Man 4 (Sequel Wars)"
 date: 2024-07-31
 description: Homebrew port of Mega Man 4 from the NES to the Sega Genesis in the style of Wily Wars, with extra features
 type: post
+image: "https://img.itch.zone/aW1nLzEyMjU0NzIyLnBuZw==/original/gH9pFt.png"
 tags:
   - Completed
   - Mega Man

@@ -3,6 +3,7 @@ title: "Mega Man: Dr. Wily's Revenge"
 date: 2024-08-01
 description: AKA Rock Man World, the first Game Boy Mega Man game, and a sad return to Mega Man 1
 type: post
+image: "https://cdn.mobygames.com/covers/3990789-mega-man-dr-wilys-revenge-game-boy-front-cover.jpg"
 tags:
   - Completed
   - Mega Man

@@ -3,6 +3,7 @@ title: "Mega Man II"
 date: 2024-08-04
 description: AKA Rock Man World 2, where it starts getting better
 type: post
+image: "https://cdn.mobygames.com/covers/10576434-mega-man-ii-game-boy-front-cover.png"
 tags:
   - Completed
   - Mega Man

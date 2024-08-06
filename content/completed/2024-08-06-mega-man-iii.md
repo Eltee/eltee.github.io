@@ -3,6 +3,7 @@ title: "Mega Man III"
 date: 2024-08-05
 description: AKA Rock Man World 3, the nightmare game
 type: post
+image: "https://cdn.mobygames.com/covers/5910102-mega-man-iii-game-boy-front-cover.jpg"
 tags:
   - Completed
   - Mega Man

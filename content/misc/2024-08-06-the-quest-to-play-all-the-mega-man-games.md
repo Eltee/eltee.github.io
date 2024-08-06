@@ -3,6 +3,7 @@ title: The quest to play all the Mega Man games
 date: 2024-08-06
 description: "The kind of thing I do to myself"
 type: post
+image: "https://mario.wiki.gallery/images/thumb/8/8a/MegaMan_SSBU.png/1200px-MegaMan_SSBU.png"
 tags:
   - Miscellaneous
 showTableOfContents: true
