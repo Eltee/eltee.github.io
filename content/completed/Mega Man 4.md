@@ -8,6 +8,8 @@ tags:
   - Mega Man
   - Platformer
   - Sega Genesis
+  - 1991
+  - 2023
 showTableOfContents: false
 params:
   author: Eltee

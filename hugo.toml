@@ -1,6 +1,6 @@
 baseURL = 'https://eltee.online/'
 languageCode = 'en-ca'
-title = "Blog Unscrupulous Murder"
+title = "Deep Bog Blog"
 theme = 'gokarna'
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Eltee"
-  description = "Quiplash Champion 2015"
+  description = "Sometimes I lack inspiration when changing the name"
   ShowBackToTopButton = true 
   showPostsOnHomePage = "recent"
   avatarURL = "/images/avatar.png"

@@ -8,6 +8,7 @@ tags:
   - Mega Man
   - Platformer
   - Game Boy
+  - 1991
 showTableOfContents: false
 params:
   author: Eltee
@@ -22,10 +23,10 @@ It's a fairly simple affair, a rehash of Mega Man 1 bosses and remixed stages, u
 
 As with Mega Man 1, it deals more frustration than it does fun and it is mostly a chore to get through. The Robot Master (of which there are only four, Ice Man, Elec Man, Fire Man and Cut Man) are similar to their NES counterparts, down to the same broken type of encounter where iframes seemed only like a passing suggestion. This means with correct manoeuvring you can get through them fast enough, and you should because they can completely tear you down in seconds otherwise.
 
-{{< figure src="/images/completed/megamangb/s2.jpg" >}}
+{{< figure src="/images/completed/megamangb/s2.jpg" caption="Wily goes down after beating his ugly face-shaped robot">}}
 
 The Wily stages feature different Robot Masters, from Mega Man 2, and these also give you their weapons after you beat them in the teleporter room. This gives a bit of variety and also means unlike a regular Mega Man game, you're not refighting the same bosses again. The Wily stages are otherwise mostly just more frustratingly designed stages. One standout feature however is the introduction of a 9th, completely original Robot Master after the teleporter room. This guy, whose name I forget, is pretty cool and an interesting fight.
 
-{{< figure src="/images/completed/megamangb/s3.jpg" >}}
+{{< figure src="/images/completed/megamangb/s3.jpg" caption="For some reason the GB Mega Man games mostly take place in space..">}}
 
 All in all, a mostly miserable time aside from the few surprises at the end of the Wily stages. This should finally be the last time I have to get through a Mega Man 1 or Mega Man 1 adjacent game.
