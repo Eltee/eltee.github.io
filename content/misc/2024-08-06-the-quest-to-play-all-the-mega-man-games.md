@@ -63,7 +63,7 @@ Also of note is that I do not intend to play more than one version per game in t
 - [x] [Mega Man II (Game Boy)](/completed/2024-08-06-mega-man-ii/)
 - [x] [Mega Man III (Game Boy)](/completed/2024-08-06-mega-man-iii/)
 - [x] [Mega Man IV (Game Boy)](/completed/2024-08-06-mega-man-iv/)
-- [ ] Mega Man V (Game Boy)
+- [x] [Mega Man V (Game Boy)](/completed/2024-08-15-mega-man-v/)
 
 ### Mega Man X
 
