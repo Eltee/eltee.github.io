@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Eltee"
-  description = "Goodbye Galaxy"
+  description = "Castlevania's Back??"
   ShowBackToTopButton = true 
   showPostsOnHomePage = "recent"
   avatarURL = "/images/avatar.png"
