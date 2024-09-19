@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Eltee"
-  description = "Castlevania's Back??"
+  description = "Eggbug Has Died"
   ShowBackToTopButton = true 
   showPostsOnHomePage = "recent"
   avatarURL = "/images/avatar.png"
