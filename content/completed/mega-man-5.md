@@ -9,7 +9,7 @@ tags:
   - Mega Man
   - Platformer
   - NES
-  - 2024
+  - 1992
 showTableOfContents: false
 params:
   author: Eltee

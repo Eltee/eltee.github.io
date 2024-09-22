@@ -8,8 +8,8 @@ tags:
   - Completed
   - Doom
   - FPS
-  - Steam
-  - 2024
+  - PC
+  - 2019
 showTableOfContents: false
 params:
   author: Eltee
