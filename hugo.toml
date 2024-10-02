@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Eltee"
-  description = "John Romero Will Not Make Me His Bitch"
+  description = "Anime talk is not permitted in this channel"
   ShowBackToTopButton = true 
   showPostsOnHomePage = "recent"
   avatarURL = "/images/avatar.png"
