@@ -1,5 +1,5 @@
 # About
-Hello, my name is Eltee, and I am a 30-something quebecois software engineer. I'm not interested in discussing software engineering however. At least not for now.
+Hello, my name is Eltee, and I am a quebecois software engineer. I'm not interested in discussing software engineering however. At least not for now.
 
 This website/blog is intended primarily for myself, to house posts relating to any of the following, which are often things I list/track elsewhere anyway:
 - Games I have completed
