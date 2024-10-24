@@ -22,7 +22,7 @@ Nevertheless, I have made some time for it and planned to use evenings to get th
 I will try to get to uploading older Next Fest and Completed pages before the end of the year. The backlog is ENORMOUS, but I really want to get everything posted and listed on here.
 
 ## The games
-Here are the 15 demos I have downloaded with the links to their respective pages once up.
+Here are the 13 demos I have downloaded with the links to their respective pages once up.
 
 - Rift of the Necrodancer
 - Windblown
@@ -35,8 +35,6 @@ Here are the 15 demos I have downloaded with the links to their respective pages
 - Heroes of Hammerwatch II
 - Mandragora
 - Neverlooted Dungeon
-- Slime Heroes
 - Snow Bros. 2 Special
-- V.A Proxy
-- Warside
+- [Warside](/nextfest/warside/)
 
