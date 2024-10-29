@@ -20,6 +20,7 @@ We're talking here posts for the Completed Games category as well as the Steam N
 ## The Completed Games backlog
 This backlog corresponds to everything found [here](https://howlongtobeat.com/user/Eltee78641/games/completed/1) that isn't already posted on here. The following list is what remains to be posted:
 
+- Antarctic Adventure
 - Hollowbody
 - Frog Detective 3: Corruption at Cowboy County
 - Shin Megami Tensei: Synchronicity Prologue
