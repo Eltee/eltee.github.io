@@ -27,3 +27,5 @@ What irks me about it is that it seems to want to heavily copy the look and feel
 {{< figure src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2368300/ss_812c2856f3ca6c56de4b596507e7e55eb1568d4d.1920x1080.jpg?t=1729401756" width=560px caption="It really, really wants to look like Wargroove" >}}
 
 That aside, the demo has a bunch of placeholders and really bland atmosphere. Apart from that, the game is neat. There's potential here but it feels dangerously close to plagiarism or theft on some level. It is not made by the Wargroove devs, but maybe there's an angle here I'm not aware of?
+
+As of writing (2024-11-09), Warside is still only available as a demo.
