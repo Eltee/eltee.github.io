@@ -1,12 +1,13 @@
 ---
 title: Rift of the Necrodancer (October 2024 Steam Next Fest)
-date: 2024-10-20
+date: 2024-11-09
 description: "It's too friggin hard"
 type: post
 image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2073250/header.jpg?t=1731010089"
 tags:
   - Steam Next Fest
   - Nextfest "good"
+  - October 2024 Steam Next Fest
   - 2024
 showTableOfContents: false
 params:

@@ -7,6 +7,7 @@ image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2
 tags:
   - Steam Next Fest
   - Nextfest "mid"
+  - October 2024 Steam Next Fest
   - 2024
 showTableOfContents: false
 params:
@@ -28,4 +29,4 @@ What irks me about it is that it seems to want to heavily copy the look and feel
 
 That aside, the demo has a bunch of placeholders and really bland atmosphere. Apart from that, the game is neat. There's potential here but it feels dangerously close to plagiarism or theft on some level. It is not made by the Wargroove devs, but maybe there's an angle here I'm not aware of?
 
-As of writing (2024-11-09), Warside is still only available as a demo.
+As of writing (2024-10-20), Warside is still only available as a demo.

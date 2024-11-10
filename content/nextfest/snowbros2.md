@@ -1,12 +1,13 @@
 ---
 title: Snow Bros. 2 SPECIAL (October 2024 Steam Next Fest)
-date: 2024-10-20
+date: 2024-11-09
 description: "90's arcade is back"
 type: post
 image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2340640/header.jpg?t=1729134776"
 tags:
   - Steam Next Fest
   - Nextfest "mid"
+  - October 2024 Steam Next Fest
   - 2024
 showTableOfContents: false
 params:
