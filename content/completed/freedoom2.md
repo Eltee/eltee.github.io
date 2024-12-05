@@ -12,7 +12,7 @@ tags:
   - 2019
 showTableOfContents: false
 params:
-  author: Smelltree
+  author: Eltee
   category: Completed
 ---
 {{< figure src="/images/completed/freedoom2/ts.jpg" width=560px caption="The game's title screen" >}}
