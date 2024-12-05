@@ -1,9 +1,9 @@
 ---
-title: "Freedoom - Phase 2"
-date: 2024-10-02
+title: Freedoom - Phase 2
+date: 2024-10-02T00:00:00
 description: Went by much faster than Phase 1
 type: post
-image: "/images/completed/freedoom2/ts.jpg"
+image: /images/completed/freedoom2/ts.jpg
 tags:
   - Completed
   - Doom
@@ -12,10 +12,9 @@ tags:
   - 2019
 showTableOfContents: false
 params:
-  author: Eltee
+  author: Smelltree
   category: Completed
 ---
-
 {{< figure src="/images/completed/freedoom2/ts.jpg" width=560px caption="The game's title screen" >}}
 
 After I finished Phase 1 and SIGIL II, it was time to attack Phase 2 and to be done with Freedoom. It's only been a week or two since I finished Phase 1 (or more precisely Double Impact) so unlike the year+ it took me to work through that on and off, I was clearly more focused this time around.
