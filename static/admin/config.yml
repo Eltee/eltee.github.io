@@ -1,0 +1,110 @@
+backend:
+  name: github
+  repo: Eltee/eltee.github.io
+  branch: main
+  automatic_deployments: false
+  use_graphql: true
+  site_domain: 719c9922-ec6c-4154-a82d-5452783370bc
+  squash_merges: true
+site_url: https://eltee.online
+publish_mode: editorial_workflow
+show_preview_links: true
+media_folder: static/images/uploads
+public_folder: /images/uploads
+collections:
+  - name: 'completed'
+    label: 'Completed Games'
+    folder: 'content/completed'
+    create: true
+    preview_path: completed/{{slug}}
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Completed Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
+      - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
+      - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'misc'
+    label: 'Miscellaneous'
+    folder: 'content/misc'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
+      - { label: 'Link Image', name: 'image', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
+      - label: 'Additional Parameters'
+        name: 'params'
+        widget: 'list'
+        allow_add: false
+        fields: 
+        - {label: Author, name: author, widget: string, default: "Eltee" }
+        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Misc" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'nextfest'
+    label: 'Steam Nextfest'
+    folder: 'content/nextfest'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Nextfest Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
+      - { label: 'Link Image', name: 'image', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
+      - label: 'Additional Parameters'
+        name: 'params'
+        widget: 'list'
+        allow_add: false
+        fields: 
+        - {label: Author, name: author, widget: string, default: "Eltee" }
+        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Nextfest" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'vgm'
+    label: 'VGM Showcase'
+    folder: 'content/vgm'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
+      - { label: 'Link Image', name: 'image', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
+      - label: 'Additional Parameters'
+        name: 'params'
+        widget: 'list'
+        allow_add: false
+        fields: 
+        - {label: Author, name: author, widget: string, default: "Eltee" }
+        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "VGM" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'youtube'
+    label: 'YouTube'
+    folder: 'content/youtube'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Video Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
+      - { label: 'Link Image', name: 'image', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
+      - label: 'Additional Parameters'
+        name: 'params'
+        widget: 'list'
+        allow_add: false
+        fields: 
+        - {label: Author, name: author, widget: string, default: "Eltee" }
+        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "YouTube" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
