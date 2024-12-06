@@ -1,4 +1,5 @@
 /*! coi-serviceworker v0.1.7 - Guido Zuidhof and contributors, licensed under MIT */
+console.log("hi i'm daisy");
 let coepCredentialless = false;
 if (typeof window === 'undefined') {
     self.addEventListener("install", () => self.skipWaiting());
@@ -46,7 +47,7 @@ if (typeof window === 'undefined') {
                     if (!coepCredentialless) {
                         newHeaders.set("Cross-Origin-Resource-Policy", "cross-origin");
                     }
-                    newHeaders.set("Cross-Origin-Opener-Policy", "same-origin");
+                    newHeaders.set("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
 
                     return new Response(response.body, {
                         status: response.status,
