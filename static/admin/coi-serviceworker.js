@@ -41,12 +41,8 @@ if (typeof window === 'undefined') {
                     }
 
                     const newHeaders = new Headers(response.headers);
-                    newHeaders.set("Cross-Origin-Embedder-Policy",
-                        coepCredentialless ? "credentialless" : "require-corp"
-                    );
-                    if (!coepCredentialless) {
-                        newHeaders.set("Cross-Origin-Resource-Policy", "cross-origin");
-                    }
+                    newHeaders.set("Cross-Origin-Embedder-Policy", "credentialless");
+                    newHeaders.set("Cross-Origin-Resource-Policy", "cross-origin");
                     console.log("setting the coop header")
                     newHeaders.set("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
 
