@@ -40,13 +40,8 @@ collections:
       - { label: 'Link Image', name: 'image', widget: 'string', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-      - label: 'Additional Parameters'
-        name: 'params'
-        widget: 'list'
-        allow_add: false
-        fields: 
-        - {label: Author, name: author, widget: string, default: "Eltee" }
-        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Misc" }
+      - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
+      - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'nextfest'
     label: 'Steam Nextfest'
@@ -60,13 +55,8 @@ collections:
       - { label: 'Link Image', name: 'image', widget: 'string', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-      - label: 'Additional Parameters'
-        name: 'params'
-        widget: 'list'
-        allow_add: false
-        fields: 
-        - {label: Author, name: author, widget: string, default: "Eltee" }
-        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Nextfest" }
+      - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
+      - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'vgm'
     label: 'VGM Showcase'
@@ -80,13 +70,8 @@ collections:
       - { label: 'Link Image', name: 'image', widget: 'string', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-      - label: 'Additional Parameters'
-        name: 'params'
-        widget: 'list'
-        allow_add: false
-        fields: 
-        - {label: Author, name: author, widget: string, default: "Eltee" }
-        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "VGM" }
+      - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
+      - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'youtube'
     label: 'YouTube'
@@ -100,11 +85,6 @@ collections:
       - { label: 'Link Image', name: 'image', widget: 'string', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-      - label: 'Additional Parameters'
-        name: 'params'
-        widget: 'list'
-        allow_add: false
-        fields: 
-        - {label: Author, name: author, widget: string, default: "Eltee" }
-        - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "YouTube" }
+      - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
+      - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
