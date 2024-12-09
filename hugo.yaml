@@ -8,11 +8,6 @@ enableRobotsTXT: true
 
 pygmentsStyle: "monokai"
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 params:
   footer: "Eltee"
   description: "That song where he screams 'it's christmas' at the end"
@@ -100,3 +95,6 @@ markup:
     startLevel: 1
     endLevel: 4
     ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
