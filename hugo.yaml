@@ -10,7 +10,7 @@ pygmentsStyle: "monokai"
 
 params:
   footer: "Eltee"
-  description: "Infinte posts to post"
+  description: "That song where he screams 'it's christmas' at the end"
   ShowBackToTopButton: true 
   showPostsOnHomePage: "recent"
   avatarURL: "/images/avatar.png"
@@ -58,118 +58,6 @@ params:
     - "steam"
     - "retro"
     - "nextfest"
-  # headless_cms:
-  #   engine: "sveltia"
-  #   backend:
-  #     name: github
-  #     repo: Eltee/eltee.github.io
-  #     branch: main
-  #     use_graphql: true
-  #     site_domain: eltee.online
-  #     base_url: https://eltee.online
-  #   media_folder: static/images/uploads
-  #   public_folder: /images/uploads
-  #   collections:
-  #     - name: 'completed'
-  #       label: 'Completed Games'
-  #       folder: 'content/completed'
-  #       create: true
-  #       fields:
-  #         - { label: 'Title', name: 'title', widget: 'string' }
-  #         - { label: 'Completed Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-  #         - { label: 'Description', name: 'description', widget: 'string' }
-  #         - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-  #         - { label: 'Link Image', name: 'image', widget: 'string' }
-  #         - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-  #         - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-  #         - label: 'Additional Parameters'
-  #           name: 'params'
-  #           widget: 'list'
-  #           allow_add: false
-  #           fields: 
-  #             - {label: Author, name: author, widget: string, default: "Eltee" }
-  #             - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
-  #     - name: 'misc'
-  #       label: 'Miscellaneous'
-  #       folder: 'content/misc'
-  #       create: true
-  #       fields:
-  #         - { label: 'Title', name: 'title', widget: 'string' }
-  #         - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-  #         - { label: 'Description', name: 'description', widget: 'string' }
-  #         - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-  #         - { label: 'Link Image', name: 'image', widget: 'string' }
-  #         - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-  #         - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-  #         - label: 'Additional Parameters'
-  #           name: 'params'
-  #           widget: 'list'
-  #           allow_add: false
-  #           fields: 
-  #           - {label: Author, name: author, widget: string, default: "Eltee" }
-  #           - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Misc" }
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
-  #     - name: 'nextfest'
-  #       label: 'Steam Nextfest'
-  #       folder: 'content/nextfest'
-  #       create: true
-  #       fields:
-  #         - { label: 'Title', name: 'title', widget: 'string' }
-  #         - { label: 'Nextfest Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-  #         - { label: 'Description', name: 'description', widget: 'string' }
-  #         - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-  #         - { label: 'Link Image', name: 'image', widget: 'string' }
-  #         - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-  #         - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-  #         - label: 'Additional Parameters'
-  #           name: 'params'
-  #           widget: 'list'
-  #           allow_add: false
-  #           fields: 
-  #           - {label: Author, name: author, widget: string, default: "Eltee" }
-  #           - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Nextfest" }
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
-  #     - name: 'vgm'
-  #       label: 'VGM Showcase'
-  #       folder: 'content/vgm'
-  #       create: true
-  #       fields:
-  #         - { label: 'Title', name: 'title', widget: 'string' }
-  #         - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-  #         - { label: 'Description', name: 'description', widget: 'string' }
-  #         - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-  #         - { label: 'Link Image', name: 'image', widget: 'string' }
-  #         - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-  #         - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-  #         - label: 'Additional Parameters'
-  #           name: 'params'
-  #           widget: 'list'
-  #           allow_add: false
-  #           fields: 
-  #           - {label: Author, name: author, widget: string, default: "Eltee" }
-  #           - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "VGM" }
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
-  #     - name: 'youtube'
-  #       label: 'YouTube'
-  #       folder: 'content/youtube'
-  #       create: true
-  #       fields:
-  #         - { label: 'Title', name: 'title', widget: 'string' }
-  #         - { label: 'Video Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-  #         - { label: 'Description', name: 'description', widget: 'string' }
-  #         - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-  #         - { label: 'Link Image', name: 'image', widget: 'string' }
-  #         - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-  #         - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
-  #         - label: 'Additional Parameters'
-  #           name: 'params'
-  #           widget: 'list'
-  #           allow_add: false
-  #           fields: 
-  #           - {label: Author, name: author, widget: string, default: "Eltee" }
-  #           - {label: Category, name: category, widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "YouTube" }
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
 
 menu:
   main:
@@ -207,13 +95,3 @@ markup:
     startLevel: 1
     endLevel: 4
     ordered: false
-
-# module:
-#   imports:
-#     - path: "github.com/privatemaker/headless-cms"
-
-# outputs:
-#   home:
-#   - HTML
-#   - RSS
-#   - HeadlessCMSConfig

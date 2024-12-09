@@ -20,10 +20,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Completed Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true, required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
       - { label: 'Category', name: 'params.category', widget: select, options: ["Completed", "Misc", "Nextfest", "VGM", "YouTube"], default: "Completed" }
@@ -35,10 +35,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - label: 'Additional Parameters'
         name: 'params'
@@ -55,10 +55,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Nextfest Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - label: 'Additional Parameters'
         name: 'params'
@@ -75,10 +75,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - label: 'Additional Parameters'
         name: 'params'
@@ -95,10 +95,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Video Date', name: 'date', widget: 'datetime', default: '{{now}}' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - label: 'Additional Parameters'
         name: 'params'
