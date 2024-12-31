@@ -1,6 +1,6 @@
 ---
 title: Mega Man 5
-date: 2024-09-10
+date: 2024-09-10T20:00:00
 description: A nice NES Mega Man. No notes.
 type: post
 image: https://cdn.mobygames.com/covers/4214292-mega-man-5-nes-front-cover.jpg
@@ -33,4 +33,4 @@ This is standard Mega Man at this point, but I will say 5 doesn't have any outst
 
 Secret content don't look:
 
-<figure><img src="___" alt="___" width="___"><figcaption><p>___</p></figcaption></figure>
+<figure><img src="**_" alt="_**" width="**_"><figcaption><p>_**</p></figcaption></figure>
