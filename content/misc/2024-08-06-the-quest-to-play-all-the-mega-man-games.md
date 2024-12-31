@@ -1,9 +1,9 @@
 ---
 title: The quest to play all the Mega Man games
 date: 2024-08-06
-description: "The kind of thing I do to myself"
+description: The kind of thing I do to myself
 type: post
-image: "https://mario.wiki.gallery/images/thumb/8/8a/MegaMan_SSBU.png/1200px-MegaMan_SSBU.png"
+image: https://mario.wiki.gallery/images/thumb/8/8a/MegaMan_SSBU.png/1200px-MegaMan_SSBU.png
 tags:
   - Miscellaneous
 showTableOfContents: true
@@ -11,7 +11,6 @@ params:
   author: Eltee
   category: Misc
 ---
-
 {{< figure src="https://mario.wiki.gallery/images/thumb/8/8a/MegaMan_SSBU.png/1200px-MegaMan_SSBU.png" width=360px caption="The guy himself" >}}
 
 ## Why do I do this
@@ -37,6 +36,7 @@ Below is the actual list of games I intend to try getting to. The Battle Network
 Some games might get added along the way, like how I didn't know I wanted to play Mega Man Powered Up after I played Mega Man 1 or how I didn't initially know I wanted to play the Wily Wars versions of 2, 3 and 4.
 
 Notable absences here are:
+
 - Mega Man (DOS): no thanks. no need to do this to myself.
 - Mega Man X Command Mission: not that it's bad or anything but I don't want to get into this kind of spinoff here.
 - Mega Man Network Transmission: I've played this one on gamecube when it was new and I remember it is dogshit so. no thanks. I might change my mind unfortunately.
@@ -54,10 +54,10 @@ Also of note is that I do not intend to play more than one version per game in t
 - [x] Mega Man 6 (NES)
 - [x] Mega Man 7 (SNES)
 - [x] Mega Man 8 (PSX)
-- [ ] Mega Man & Bass (SNES)
-- [ ] Mega Man 9 (Wiiware)
-- [ ] Mega Man 10 (Wiiware)
-- [ ] Mega Man 11 (Switch)
+- [x] Mega Man & Bass (SNES)
+- [x] Mega Man 9 (Wiiware)
+- [x] Mega Man 10 (Wiiware)
+- [x] Mega Man 11 (Switch)
 - [x] Mega Man (Game Gear)
 - [x] [Mega Man: Dr. Wily's Revenge (Game Boy)](/completed/2024-08-02-mega-man---dr-wilys-revenge/)
 - [x] [Mega Man II (Game Boy)](/completed/2024-08-06-mega-man-ii/)
@@ -67,8 +67,8 @@ Also of note is that I do not intend to play more than one version per game in t
 
 ### Mega Man X
 
-- [ ] Mega Man X (SNES)
-- [ ] Mega Man Maverick Hunter X (PSP)
+- [x] Mega Man X (SNES)
+- [x] Mega Man Maverick Hunter X (PSP)
 - [ ] Mega Man X2 (SNES)
 - [ ] Mega Man X3 (SNES)
 - [ ] Mega Man Xtreme (Game Boy Color)
