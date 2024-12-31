@@ -1,8 +1,9 @@
 ---
 title: The Post Backlog
 date: 2024-10-16
-description: "There are a lot of posts about the past to make"
+description: There are a lot of posts about the past to make
 type: post
+image: ''
 tags:
   - Miscellaneous
   - 2024
@@ -11,15 +12,22 @@ params:
   author: Eltee
   category: Misc
 ---
-
 ## The current state of the post backlog
+
 There are a lot of previous "events" I want to capture on this website that I haven't gotten around to. In truth, the size of the backlog I want to get through is enormous.
 
 We're talking here posts for the Completed Games category as well as the Steam Next Fest category. There is a backlog for YouTube Uploads as well I guess but these are less important to me.
 
 ## The Completed Games backlog
+
 This backlog corresponds to everything found [here](https://howlongtobeat.com/user/Eltee78641/games/completed/1) that isn't already posted on here. The following list is what remains to be posted:
 
+- Mega Man Maverick Hunter X
+- Mega Man X
+- Mega Man 11
+- Mega Man 10
+- Mega Man 9
+- Mega Man & Bass
 - Mega Man 8
 - Mega Man 7
 - Mega Man 6
@@ -158,9 +166,11 @@ This backlog corresponds to everything found [here](https://howlongtobeat.com/us
 - Hyrule Warriors: Age of Calamity
 
 ## The Steam Next Fest backlog
+
 This backlog corresponds to all the demos I tried (even some I don't remember trying) in past Steam Next Fests. I'm not including October 2024 in here even if I haven't posted these yet as it is current and will most likely be posted first.
 
 ### Steam Game Festival (June 2020)
+
 - Gloomwood
 - Ultrakill
 - Everspace 2
@@ -169,6 +179,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Ghostrunner
 
 ### Summer Next Fest (June 2021)
+
 - Super Dungeon Maker - Fink's Awakening
 - My Time at Sandrock
 - Leif's Adventure: Netherworld Hero
@@ -208,6 +219,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Greak: Memories of Azur
 
 ### Summer Next Fest (June 2022)
+
 - Nine Sols
 - Cursed to Golf
 - Gloomwood
@@ -251,6 +263,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Lego Brawls
 
 ### October Next Fest (2022)
+
 - Dredge
 - Potionomics
 - Rhythm Sprout
@@ -306,6 +319,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Mile High Taxi
 
 ### Winter Next Fest (February 2023)
+
 - Gravity Circuit  
 - System Shock (Remake)  
 - Gestalt: Flame & Cinder  
@@ -364,6 +378,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Ogu and the Mysterious Forest
 
 ### Summer Next Fest (June 2023)
+
 - Captain Wayne: Vacation Desperation
 - Battle Shapers
 - Beyond Sunset
@@ -401,6 +416,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Toziuha Night: Order of the Alchemists
 
 ### October Next Fest (October 2023)
+
 - Captain Pawsome
 - Unawake
 - Sorceress
@@ -437,6 +453,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Gunhead
 
 ### Winter Next Fest (February 2024)
+
 - Crypt Custodian
 - Bore Blasters
 - Children of the Sun
@@ -493,6 +510,7 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Copycat
 
 ### Summer Next Fest (June 2024)
+
 - Cato
 - Bō: Path of the Teal Lotus
 - Flintlock: Siege of Dawn
