@@ -1,9 +1,9 @@
 ---
-title: "Freedoom - Phase 1 / Double Impact"
-date: 2024-09-19
+title: Freedoom - Phase 1 / Double Impact
+date: 2024-09-19T20:00:00
 description: A long time coming, and quite impressive
 type: post
-image: "https://www.speedrun.com/static/game/m1zjr526/cover.png?v=ba02de7"
+image: https://www.speedrun.com/static/game/m1zjr526/cover.png?v=ba02de7
 tags:
   - Completed
   - Doom
@@ -15,8 +15,7 @@ params:
   author: Eltee
   category: Completed
 ---
-
-{{< figure src="https://www.speedrun.com/static/game/m1zjr526/cover.png?v=ba02de7" width=360px caption="The game's title screen" >}}
+<figure><img src="https://www.speedrun.com/static/game/m1zjr526/cover.png?v=ba02de7" alt="The game's title screen" width="360px "><figcaption><p>The game's title screen</p></figcaption></figure>
 
 I started this playthrough of Freedoom's campaign multiple months, maybe even over a year ago. It's a thing I'd play here and there and slowly get through the different episodes. A lull in work, some free time and so on.. everytime a good opportunity to play a bit of Doom.
 
@@ -24,7 +23,7 @@ A while back I played through what was at the time the full "official" releases 
 
 Going from there I wasn't sure what to play next but eventually settled on going through the Freedoom campaign. I hadn't looked at Freedoom (the truly free version of Doom; it is completely open and all assets are freely usable) in a very long time, and since then the singleplayer campaign had been completed.
 
-{{< figure src="/images/completed/freedoom/screenshot.jpg" width=500px caption="My way of playing Freedoom" >}}
+<figure><img src="/images/completed/freedoom/screenshot.jpg" alt="My way of playing Freedoom" width="500px "><figcaption><p>My way of playing Freedoom</p></figcaption></figure>
 
 It's worth noting I set up a custom pwad of Freedoom rather than playing the full on iwad version (if you don't know the Doom modding lingo it's fine don't worry about it). Namely I kept, of course, the maps, but also the music and textures and hud. The rest I stripped out, so no Freedoom sprites or weapons. I just don't really like them at all, so I just wanted to play it as a map pack for Doom. The custom hud arrangement is mostly just because I have a whole personal setup using GZDoom.. but that's not important.
 
@@ -32,7 +31,7 @@ The first three episodes were all mostly impressive. Given that the levels were 
 
 You have your two tech-base episodes, the second one being a bit wilder. Accurate to Doom 1. You have your third episode set in Hell. Again, follows Doom 1's logic. Levels all ranged from OK to Pretty Great, with no big letdowns. I will say the secret levels were all very good! Where it becomes a different thing, however, is in the fourth episode.
 
-{{< figure src="https://doomwiki.org/w/images/9/9c/Double_Impact_title.png" width=360px caption="Double Impact's title screen" >}}
+<figure><img src="https://doomwiki.org/w/images/9/9c/Double_Impact_title.png" alt="Double Impact's title screen" width="360px "><figcaption><p>Double Impact's title screen</p></figcaption></figure>
 
 Freedoom adopted another map pack, Double Impact, as its fourth episode. I'm not sure what the process was here, but this map pack was released standalone and then reworked into Freedoom's fourth episode. Consensually of course.
 
