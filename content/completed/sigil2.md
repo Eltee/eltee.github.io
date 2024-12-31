@@ -1,9 +1,9 @@
 ---
-title: "Sigil II"
-date: 2024-09-21
+title: Sigil II
+date: 2024-09-21T20:00:00
 description: Romero's back and I'm not happy about it
 type: post
-image: "https://doomwiki.org/w/images/a/a4/SIGIL_II_title.png"
+image: https://doomwiki.org/w/images/a/a4/SIGIL_II_title.png
 tags:
   - Completed
   - Doom
@@ -15,7 +15,6 @@ params:
   author: Eltee
   category: Completed
 ---
-
 <figure><img src="https://doomwiki.org/w/images/a/a4/SIGIL_II_title.png" alt="The game's title art" width=360px><figcaption><p>The game's title art</p></figcaption></figure>
 
 I feel like I hold an unpopular opinion in thinking SIGIL wasn't that great. I've definitely heard people have similar thoughts about it, but the mainstream consensus feels mostly positive about John Romero's return to Doom.
