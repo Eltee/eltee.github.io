@@ -1,6 +1,6 @@
 ---
 title: Homebody
-date: 2024-09-21
+date: 2024-09-21T20:00:00
 description: Time is a fucked up circle.
 type: post
 image: https://cdn.mobygames.com/covers/17152520-homebody-xbox-one-front-cover.jpg
