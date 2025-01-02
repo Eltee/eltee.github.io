@@ -3,7 +3,7 @@ title: Freedoom - Phase 2
 date: 2024-10-02T00:00:00
 description: Went by much faster than Phase 1
 type: post
-image: /images/completed/freedoom2/ts.jpg
+image: /images/uploads/ts.jpg
 tags:
   - Completed
   - Doom
