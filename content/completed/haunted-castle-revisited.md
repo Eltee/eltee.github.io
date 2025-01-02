@@ -3,7 +3,7 @@ title: 'Haunted Castle: Revisited'
 date: 2024-08-29T20:00:00
 description: They rehabilitated what was possibly the worst Castlevania game
 type: post
-image: /images/completed/hcrevisited/hcrtitle.jpg
+image: /images/uploads/hcrtitle.jpg
 tags:
   - Completed
   - Castlevania
