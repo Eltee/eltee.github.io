@@ -69,7 +69,7 @@ Also of note is that I do not intend to play more than one version per game in t
 
 - [x] Mega Man X (SNES)
 - [x] Mega Man Maverick Hunter X (PSP)
-- [ ] Mega Man X2 (SNES)
+- [x] Mega Man X2 (SNES)
 - [ ] Mega Man X3 (SNES)
 - [ ] Mega Man Xtreme (Game Boy Color)
 - [ ] Mega Man Xtreme 2 (Game Boy Color)
