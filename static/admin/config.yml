@@ -32,12 +32,13 @@ collections:
     label: 'Miscellaneous'
     folder: 'content/misc'
     create: true
+    preview_path: misc/{{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true, required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
@@ -47,12 +48,13 @@ collections:
     label: 'Steam Nextfest'
     folder: 'content/nextfest'
     create: true
+    preview_path: nextfest/{{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Nextfest Date', name: 'date', widget: 'datetime', default: '{{now}}' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true, required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
@@ -62,12 +64,13 @@ collections:
     label: 'VGM Showcase'
     folder: 'content/vgm'
     create: true
+    preview_path: vgm/{{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publication Date', name: 'date', widget: 'datetime', default: '{{now}}' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true, required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
@@ -77,12 +80,13 @@ collections:
     label: 'YouTube'
     folder: 'content/youtube'
     create: true
+    preview_path: youtube/{{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Video Date', name: 'date', widget: 'datetime', default: '{{now}}' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Type', name: 'type', widget: 'select', options: ["post"], default: "post" }
-      - { label: 'Link Image', name: 'image', widget: 'string', required: false }
+      - { label: 'Link Image', name: 'image', widget: 'image', choose_url: true, required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
       - { label: 'Show Table of Contents', name: 'showTableOfContents', widget: 'boolean', default: false }
       - { label: 'Author', name: 'params.author', widget: string, default: 'Eltee' }
