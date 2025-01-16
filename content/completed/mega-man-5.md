@@ -30,7 +30,3 @@ The Robot Masters and their weapons this time around were fairly good by Mega Ma
 <figure><img src="https://cdn.mobygames.com/screenshots/15645964-mega-man-5-nes-charge-mans-stage.png" alt="Charge Man's interesting train level" width="360px"><figcaption><p>Charge Man's interesting train level</p></figcaption></figure>
 
 This is standard Mega Man at this point, but I will say 5 doesn't have any outstanding flaws. I guess it was fairly formulaic at this point, but it's a good one of those.
-
-Secret content don't look:
-
-<figure><img src="**_" alt="_**" width="**_"><figcaption><p>_**</p></figcaption></figure>
