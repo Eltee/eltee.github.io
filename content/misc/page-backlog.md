@@ -22,6 +22,7 @@ We're talking here posts for the Completed Games category as well as the Steam N
 
 This backlog corresponds to everything found [here](https://howlongtobeat.com/user/Eltee78641/games/completed/1) that isn't already posted on here. The following list is what remains to be posted:
 
+- Mega Man X2
 - Paper Mario: The Thousand-Year Door Remaster
 - Mega Man Maverick Hunter X
 - Mega Man X
