@@ -6,6 +6,9 @@ type: post
 image: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2545360/header.jpg?t=1736868781
 tags:
   - Steam Next Fest
+  - Nextfest "good"
+  - October 2024 Steam Next Fest
+  - '2024'
 showTableOfContents: false
 params:
   author: Eltee
