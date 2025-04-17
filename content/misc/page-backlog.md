@@ -22,6 +22,8 @@ We're talking here posts for the Completed Games category as well as the Steam N
 
 This backlog corresponds to everything found [here](https://howlongtobeat.com/user/Eltee78641/games/completed/1) that isn't already posted on here. The following list is what remains to be posted:
 
+- The Legend of Zelda: Majora's Mask 3D
+- Donkey Kong Country
 - Decarnation
 - Mega Man X2
 - Paper Mario: The Thousand-Year Door Remaster
@@ -568,3 +570,35 @@ This backlog corresponds to all the demos I tried (even some I don't remember tr
 - Utopia Must Fall
 - Veritus
 - Voidwrought
+
+### Fall Next Fest (October 2024)
+- Windblown
+- Wilmot Works It Out
+- Divine Dynamo Flamefrit
+- AI Limit
+- Blood for the Old Gods
+- Heroes of Hammerwatch II
+- Mandragora
+- Neverlooted Dungeon
+
+### Winter Next Fest (February 2025)
+- The First Berserker: Khazan
+- Shotgun Cop Man
+- Total Chaos
+- Gal Guardians: Servants of the Dark
+- Demon Tides
+- Haste: Broken Worlds
+- Skin Deep
+- He is Coming
+- AFTERBLAST
+- Cloudy & Stormy: Pawtastic Adventure
+- Reignbreaker
+- Labyrinth of the Demon King
+- Nitro Express
+- Wanderstop
+- Star Fire
+- AdventNEON
+- Asgard's Fall - Viking Survivors
+- Isopod
+- Dragonkin: The Banished
+- A Short Death
