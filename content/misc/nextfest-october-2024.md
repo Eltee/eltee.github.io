@@ -31,7 +31,7 @@ Here are the 13 demos I have downloaded with the links to their respective pages
 - Windblown
 - Wilmot Works It Out
 - Divine Dynamo Flamefrit
-- Lonely Mountains: Snow Riders
+- [Lonely Mountains: Snow Riders](/nextfest/lonely-mountains-snow-riders-october-2024-steam-next-fest/)
 - AI Limit
 - Blood for the Old Gods
 - [Card-en-Ciel](/nextfest/cardenciel/)
