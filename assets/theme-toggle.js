@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var storageKey = "eltee-online-color-theme";
+  var storageKey = "eltee-color-theme";
   var root = document.documentElement;
   var button = document.getElementById("theme-toggle");
   var text = document.getElementById("theme-toggle-text");

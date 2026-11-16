@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <section class="about" aria-label="Eltee Online">
+    <div class="about-copy">{{ .Content }}</div>
+  </section>
+
+  <section class="recent" aria-labelledby="recent-posts-heading">
+    <header class="section-heading">
+      <p class="eyebrow">History</p>
+      <h2 id="recent-posts-heading">Recent posts</h2>
+      <p>Latest posts from each section</p>
+    </header>
+    {{ $pages := where site.RegularPages "Section" "in" site.MainSections }}
+    <ol class="recent-posts">
+      {{ range first 10 ($pages.ByDate.Reverse) }}
+        <li{{with .Params.thumbnail }} class="has-thumbnail"{{ end }}>
+          <div class="post-meta">
+            <span class="post-kind">{{ .CurrentSection.Params.label }}:</span>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date.Format (default "January 2, 2006" site.Params.dateFormat) }}
+            </time>
+          </div>
+          {{ partial "list-thumbnail.html" . }}
+          <div class="post-summary">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify }}</p>{{ end }}
+          </div>
+        </li>
+      {{ else }}
+        <li>No posts.</li>
+      {{ end }}
+    </ol>
+  </section>
+{{ end }}

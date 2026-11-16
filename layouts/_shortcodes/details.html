@@ -1,0 +1,4 @@
+<details{{ with .Get "name" }} name="{{ . }}"{{ end }}>
+  <summary>{{ .Get "summary" }}</summary>
+  <p>{{ .Get "content" }}</p>
+</details>

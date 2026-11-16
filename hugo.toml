@@ -15,7 +15,7 @@ noClasses = false
 
 [params]
 title = "Eltee Online"
-description = "When I said Merry New Year 2027 it turned out to be prophetic"
+description = "When I said \"Merry New Year 2027\" it turned out to be prophetic"
 dateFormat = "January 2, 2006"
 hideMadeWithLine = false
 hideRSSLink = false

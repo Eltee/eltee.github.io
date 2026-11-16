@@ -1,14 +1,11 @@
 ---
 title: "Eltee Online"
-description: "When I said Merry New Year 2027 it turned out to be prophetic"
+description: "When I said \"Merry New Year 2027\" it turned out to be prophetic"
 ---
 
 {{< figure
-  src="/images/islam.png"
-  alt="islam"
-  link="https://google.com"
-  caption="islam"
-  class="notice"
+  src="/images/avatar.png"
+  alt="Eltee Online"
 >}}
 
 Good morning citizens. This is your friend Eltee speaking, back from the dead after almost two years. Turns out living with a **toddler** is hard, who knew?
