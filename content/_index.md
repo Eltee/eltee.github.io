@@ -6,6 +6,7 @@ description: "When I said \"Merry New Year 2027\" it turned out to be prophetic"
 {{< figure
   src="/images/avatar.png"
   alt="Eltee Online"
+  class="noborder"
 >}}
 
 Good morning citizens. This is your friend Eltee speaking, back from the dead after almost two years. Turns out living with a **toddler** is hard, who knew?

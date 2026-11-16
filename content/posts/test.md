@@ -12,7 +12,6 @@ thumbnail: "/images/test.png"
   src="/images/test.png"
   alt="duh"
   link="https://google.com"
-  class="notice"
   caption="test"
 >}}
 
