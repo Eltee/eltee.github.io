@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  {{ with .Content }}
+    <div class="section-intro">{{ . }}</div>
+  {{ end }}
+  <ol class="publication-list">
+    {{ range .RegularPages.ByDate.Reverse }}
+      <li{{ with .Params.thumbnail }} class="has-thumbnail" {{ end }}>
+        <div class="publication-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format (default "January 2, 2006" site.Params.dateFormat) }}
+          </time>
+        </div>
+        {{ partial "list-thumbnail.html" . }}
+        <div class="publication-summary">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </li>
+    {{ else }}
+      <li>No posts.</li>
+    {{ end }}
+  </ol>
+
+{{ end }}

@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+  {{ if .Params.toc }}
+    {{ $toc := .TableOfContents }}
+    {{ if strings.TrimSpace ($toc | plainify) }}
+      <details>
+        <summary>{{ T "toc" }}</summary>
+        {{ $toc }}
+      </details>
+    {{ end }}
+  {{ end }}
+  {{ .Content }}
+  
+  {{ $pages := .CurrentSection.RegularPages }}
+  {{ $newer := $pages.Next . }}
+  {{ $older := $pages.Prev . }}
+  {{ if or $newer $older }}
+    <nav class="post-nav flex-between" aria-label="{{ T "post_navigation" }}">
+      {{ with $newer }}
+        <a href="{{ .RelPermalink }}" rel="prev">
+          <small><span aria-hidden="true">←</span> {{ T "newer_post" }}</small>
+          <span class="title">{{ .Title }}</span>
+        </a>
+      {{ end }}
+      {{ with $older }}
+        <a href="{{ .RelPermalink }}" rel="next">
+          <small>{{ T "older_post" }} <span aria-hidden="true">→</span></small>
+          <span class="title">{{ .Title }}</span>
+        </a>
+      {{ end }}
+    </nav>
+  {{ end }}
+
+{{ end }}

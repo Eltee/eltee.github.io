@@ -1,0 +1,4 @@
+{{ with resources.Get "theme-toggle.js" }}
+  {{ $script := . | minify | fingerprint }}
+  <script src="{{ $script.RelPermalink }}"></script>
+{{ end }}

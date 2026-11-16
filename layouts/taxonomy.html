@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+  <nav class="tag-cloud" aria-label="All tags">
+    <ul class="tag-list">
+      {{ range .Data.Terms.Alphabetical }}
+        <li><a class="tag-pill" href="{{ .Page.RelPermalink }}">#{{ .Page.LinkTitle }}</a></li>
+      {{ else }}
+        <li class="tag-list-empty">No tags.</li>
+      {{ end }}
+    </ul>
+  </nav>
+
+{{ end }}

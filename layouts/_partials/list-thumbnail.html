@@ -1,0 +1,6 @@
+{{ $page := . }}
+{{ with .Params.thumbnail }}
+  <a class="list-thumbnail" href="{{ $page.RelPermalink }}" aria-hidden="true" tabindex="-1">
+    <img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async" />
+  </a>
+{{ end }}

@@ -1,0 +1,14 @@
+<script>
+  (function () {
+    try {
+      var theme = localStorage.getItem("eltee-color-theme");
+      if (theme === "light" || theme === "dark") {
+        document.documentElement.dataset.theme = theme;
+      }
+    } catch (_) {}
+  })();
+</script>
+{{ with resources.Get "custom.css" }}
+  {{ $custom := . | minify | fingerprint }}
+  <link href="{{ $custom.RelPermalink }}" rel="stylesheet" />
+{{ end }}

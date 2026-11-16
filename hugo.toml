@@ -1,0 +1,51 @@
+baseURL = "https://eltee.online"
+defaultContentLanguage = "en"
+locale = "en-US"
+title = "Eltee Online"
+copyright = "2026 Eltee"
+mainSections = ["posts", "tags"]
+enableRobotsTXT = true
+capitalizeListTitles = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+title = "Eltee Online"
+description = "When I said \"Merry New Year 2027\" it turned out to be prophetic"
+dateFormat = "January 2, 2006"
+hideMadeWithLine = false
+hideRSSLink = false
+
+[params.author]
+name = "Eltee"
+email = "eltee78641@gmail.com"
+
+[[menu.main]]
+name = "About"
+pageRef = "/"
+weight = 10
+
+[[menu.main]]
+name = "Posts"
+pageRef = "/posts"
+weight = 20
+
+[[menu.main]]
+name = "Tags"
+pageRef = "/tags"
+weight = 30
+
+[services.rss]
+limit = 20
+
+[outputs]
+home = ["html", "rss"]
+section = ["html"]
+
+[module]
+[[module.imports]]
+path = "github.com/maolonglong/hugo-simple"
