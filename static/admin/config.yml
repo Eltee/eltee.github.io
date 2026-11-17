@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Eltee/eltee.github.io
   branch: main
-  use_graphql: true
   site_domain: 719c9922-ec6c-4154-a82d-5452783370bc
   commit_messages:
     create: 'Create {{collection}} “{{slug}}” [skip netlify]'
@@ -11,20 +10,22 @@ backend:
     uploadMedia: 'Upload “{{path}}” [skip netlify]'
     deleteMedia: 'Delete “{{path}}” [skip netlify]'
 
+site_url: https://eltee.online
+app_title: Eltee Online Admin
 media_folder: "static/images" 
 public_folder: "/images"
 publish_mode: simple
 show_preview_links: true
-search: false
 
-media_processing:
-  enabled: true
-  format:
-    enabled: true
-    default: jpeg
-  quality: 100
-  strip_metadata: true
-  height: 700
+media_libraries:
+  all:
+    transformations:
+      raster_image: # original format
+        format: webp # new format, only `webp` is supported
+        quality: 100 # integer between 0 and 100, default: 85
+        height: 700 # default: original size
+      svg:
+        optimize: true # default: false
 
 collections:
   - name: "posts" 
@@ -33,12 +34,15 @@ collections:
     description: "This is where the posts live, get you one!"
     delete: false
     folder: "content/posts"
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
     create: true
     slug: "{{slug}}" 
     preview_path: posts/{{slug}}
     filter: { field: "hidden", value: "false" }
     fields:
-      - { label: "Hidden", name: "hidden", widget: "select", options: ["false", "true"], default: ["false"] }
+      - { label: "Hidden", name: "hidden", widget: "select", options: ["false", "true"], default: "false" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }  
       - { label: "Description", name: "description", widget: "string" }
