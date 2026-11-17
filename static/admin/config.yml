@@ -4,10 +4,15 @@ backend:
   branch: main
   use_graphql: true
   site_domain: 719c9922-ec6c-4154-a82d-5452783370bc
-  squash_merges: true
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}” [skip netlify]'
+    update: 'Update {{collection}} “{{slug}}” [skip netlify]'
+    delete: 'Delete {{collection}} “{{slug}}” [skip netlify]'
+    uploadMedia: 'Upload “{{path}}” [skip netlify]'
+    deleteMedia: 'Delete “{{path}}” [skip netlify]'
 
 media_folder: "static/images" 
-publish_mode: editorial_workflow
+publish_mode: simple
 show_preview_links: true
 search: false
 
