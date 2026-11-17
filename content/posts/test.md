@@ -12,7 +12,7 @@ thumbnail: "/images/test.png"
   src="/images/test.png"
   alt="duh"
   link="https://google.com"
-  caption="test"
+  caption="Man, there’s just no end to these guys. Take care of the guys behind me, Fox! What’s taking you so long, Fox? Peppy, long time no see! Too bad dad’s not here to see ya FAIL!"
 >}}
 
 {{< article title="text" content="test" >}}

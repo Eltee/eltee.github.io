@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: Eltee/eltee.github.io
+  branch: main
+  use_graphql: true
+  site_domain: 719c9922-ec6c-4154-a82d-5452783370bc
+  squash_merges: true
+
+media_folder: "static/images" 
+publish_mode: editorial_workflow
+show_preview_links: true
+search: false
+
+media_processing:
+  enabled: true
+  format:
+    enabled: true
+    default: jpeg
+  quality: 100
+  strip_metadata: true
+  height: 700
+
+collections:
+  - name: "posts" 
+    label: "Posts"
+    label_singular: "Post"
+    description: "This is where the posts live, get you one!"
+    delete: false
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}" 
+    preview_path: posts/{{slug}}
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }  
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }  
+      - { label: "Preview Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
