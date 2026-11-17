@@ -16,7 +16,7 @@ thumbnail: /images/test.png
   caption="Man, there’s just no end to these guys. Take care of the guys behind me, Fox! What’s taking you so long, Fox? Peppy, long time no see! Too bad dad’s not here to see ya FAIL!"
 >}}
 
-{{< figure src="/static/images/kermit-cucumber.gif" alt="kermy" >}}
+{{< figure src="/images/kermit-cucumber.gif" alt="kermy" >}}
 
 {{< article title="text" content="test" >}}
 
