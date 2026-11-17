@@ -26,8 +26,6 @@ Man, there's just no end to these guys. Take care of the guys behind me, Fox! Wh
 
 Bogos Binted is foolish and should not be pursued. Do not pursue Lu Bu. Thou shalt fucking die.
 
-hi dad
-
 {{< details summary="numba 1" content="hehe" >}}
 {{< details name="dog" summary="numba 2" content="hehe" >}}
 {{< details name="dog" summary="numba 3" content="hehe" >}}
