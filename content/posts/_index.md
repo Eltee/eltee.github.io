@@ -1,5 +1,5 @@
 ---
-hidden: true
+hidden: "true"
 title: "Posts"
 description: "You've seen those before."
 params:

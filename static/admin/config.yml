@@ -35,12 +35,12 @@ collections:
     create: true
     slug: "{{slug}}" 
     preview_path: posts/{{slug}}
-    filter: { field: "hidden", value: false }
+    filter: { field: "hidden", value: "true" }
     fields:
-      - { label: "Hidden", name: "hidden", widget: "hidden", default: false }
+      - { label: "Hidden", name: "hidden", widget: "select", options: ["false", "true"], default: ["false"] }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }  
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }  
       - { label: "Preview Image", name: "thumbnail", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "richtext", modes: ["raw"] }

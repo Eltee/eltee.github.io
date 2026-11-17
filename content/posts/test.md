@@ -1,4 +1,5 @@
 ---
+hidden: "false"
 title: "Test"
 date: 2024-08-19
 description: "There are two ways home from the market."
