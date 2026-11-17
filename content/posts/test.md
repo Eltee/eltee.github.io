@@ -1,12 +1,12 @@
 ---
 hidden: "false"
-title: "Test"
+title: Test
 date: 2024-08-19
-description: "There are two ways home from the market."
+description: There are two ways home from the market.
 tags:
   - Dog
   - Beans
-thumbnail: "/images/test.png"
+thumbnail: /static/images/622388006_18210753466315792_7397068130907921032_n.jpg
 ---
 
 {{< figure
