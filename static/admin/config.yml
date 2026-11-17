@@ -3,18 +3,17 @@ backend:
   repo: Eltee/eltee.github.io
   branch: main
   site_domain: 719c9922-ec6c-4154-a82d-5452783370bc
-  commit_messages:
-    create: 'Create {{collection}} “{{slug}}” [skip netlify]'
-    update: 'Update {{collection}} “{{slug}}” [skip netlify]'
-    delete: 'Delete {{collection}} “{{slug}}” [skip netlify]'
-    uploadMedia: 'Upload “{{path}}” [skip netlify]'
-    deleteMedia: 'Delete “{{path}}” [skip netlify]'
+  squash_merges: true
 
 site_url: https://eltee.online
 app_title: Eltee Online Admin
 media_folder: "static/images" 
 public_folder: "/images"
-publish_mode: simple
+publish_mode:
+  type: editorial_workflow
+  stages: [draft, pending_publish]
+  direct_publish: true
+  allow_incomplete_drafts: false
 show_preview_links: true
 
 media_libraries:
