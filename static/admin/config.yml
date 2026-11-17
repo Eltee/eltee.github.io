@@ -12,6 +12,7 @@ backend:
     deleteMedia: 'Delete “{{path}}” [skip netlify]'
 
 media_folder: "static/images" 
+public_folder: "/images"
 publish_mode: simple
 show_preview_links: true
 search: false
