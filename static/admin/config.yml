@@ -35,7 +35,7 @@ collections:
     create: true
     slug: "{{slug}}" 
     preview_path: posts/{{slug}}
-    filter: { field: "hidden", value: "true" }
+    filter: { field: "hidden", value: "false" }
     fields:
       - { label: "Hidden", name: "hidden", widget: "select", options: ["false", "true"], default: ["false"] }
       - { label: "Title", name: "title", widget: "string" }
