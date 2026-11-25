@@ -1,14 +1,15 @@
 <nav aria-label="{{ T "menu" }}">{{- partial "nav.html" . -}}</nav>
 {{ $isPost := in site.MainSections .Type }}
-<div class="page-header{{ with .Params.thumbnail }} has-thumbnail{{ end }}">
+<!--<div class="page-header{{ with .Params.thumbnail }} has-thumbnail{{ end }}">-->
+<div class="page-header">
   {{- if not (eq .Kind "404") }}
     {{- with .Title }}
       <h1>{{ . }}</h1>
     {{- end }}
   {{- end }}
-  {{ with .Params.thumbnail }}
+  <!--{{ with .Params.thumbnail }}
     <img class="page-header-thumbnail" src="{{ . | relURL }}" alt="" decoding="async" />
-  {{ end }}
+  {{ end }}-->
   <div class="page-header-details">
     {{ with .Description }}
       <p>{{ . }}</p>

@@ -6,7 +6,7 @@ description: There are two ways home from the market.
 tags:
   - Dog
   - Beans
-# thumbnail: /images/test.png
+thumbnail: /images/test.png
 ---
 
 {{< figure
