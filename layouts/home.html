@@ -5,9 +5,7 @@
 
   <section class="recent" aria-labelledby="recent-posts-heading">
     <header class="section-heading">
-      <p class="eyebrow">History</p>
       <h2 id="recent-posts-heading">Recent posts</h2>
-      <p>Latest posts from each section</p>
     </header>
     {{ $pages := where site.RegularPages "Section" "in" site.MainSections }}
     <ol class="recent-posts">
