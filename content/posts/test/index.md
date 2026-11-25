@@ -26,7 +26,7 @@ Man, there's just no end to these guys. Take care of the guys behind me, Fox! Wh
 
 Bogos Binted is foolish and should not be pursued. Do not pursue Lu Bu. Thou shalt fucking die.
 
-{{< figure src="/images/screenshot.jpg" alt="dog" caption="dog gameplay" >}}
+{{< figure src="/images/screenshot.jpg" alt="dog" link="/images/screenshot.jpg" caption="dog gameplay" >}}
 
 Man, there's just no end to these guys. Take care of the guys behind me, Fox! What's taking you so long, Fox? Peppy, long time no see! Too bad dad's not here to see ya FAIL!
 
