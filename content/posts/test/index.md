@@ -6,7 +6,7 @@ description: There are two ways home from the market.
 tags:
   - Dog
   - Beans
-thumbnail: /images/test.png
+# thumbnail: /images/test.png
 ---
 
 {{< figure
@@ -16,9 +16,21 @@ thumbnail: /images/test.png
   caption="Man, there’s just no end to these guys. Take care of the guys behind me, Fox! What’s taking you so long, Fox? Peppy, long time no see! Too bad dad’s not here to see ya FAIL!"
 >}}
 
+Man, there's just no end to these guys. Take care of the guys behind me, Fox! What's taking you so long, Fox? Peppy, long time no see! Too bad dad's not here to see ya FAIL!
+
+Bogos Binted is foolish and should not be pursued. Do not pursue Lu Bu. Thou shalt fucking die.
+
 {{< figure src="/images/kermit-cucumber.gif" alt="kermy" >}}
 
+Man, there's just no end to these guys. Take care of the guys behind me, Fox! What's taking you so long, Fox? Peppy, long time no see! Too bad dad's not here to see ya FAIL!
+
+Bogos Binted is foolish and should not be pursued. Do not pursue Lu Bu. Thou shalt fucking die.
+
 {{< article title="text" content="test" >}}
+
+Man, there's just no end to these guys. Take care of the guys behind me, Fox! What's taking you so long, Fox? Peppy, long time no see! Too bad dad's not here to see ya FAIL!
+
+Bogos Binted is foolish and should not be pursued. Do not pursue Lu Bu. Thou shalt fucking die.
 
 {{< section content="The Quiet Atlas bills itself as \"a geography of places nobody visits\" and it delivers something or other idk i don't care" >}}
 
